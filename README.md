@@ -30,7 +30,7 @@
   <tr>
     <td align="left" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); padding: 25px 30px; border-radius: 12px; border-left: 6px solid #38bdf8; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);">
       <h3 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 18px; font-family: 'Segoe UI', sans-serif;">
-        🎯 AIM &amp; MAIN OBJECTIVE OF THE PROJECT
+        🎯 AIM & MAIN OBJECTIVE OF THE PROJECT
       </h3>
       <p style="color: #f1f5f9; font-size: 15.5px; line-height: 1.7; margin: 0; font-family: 'Segoe UI', sans-serif;">
         <b>The main objective of the Train Management System is to safely monitor, control, and manage train movements by replacing manual registers with a centralized digital system that stores train movement information, captures operational records, and generates reports for safety, operational control, and audits.</b>
@@ -38,17 +38,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-<!-- Quick Navigation Bar -->
-<p align="center">
-  <a href="#-why-train-management-system-tms"><b>🌟 Why TMS?</b></a> •
-  <a href="#️-system-architecture-workflow"><b>🏛️ Architecture</b></a> •
-  <a href="#-the-41-operational-registers-by-department"><b>📋 41 Registers Matrix</b></a> •
-  <a href="#-in-depth-reg-041-consolidated-dynamic-reports-engine"><b>📊 Dynamic Reports</b></a> •
-  <a href="#-quick-start--installation"><b>⚡ Quick Start</b></a>
-</p>
 
 ---
 
@@ -82,45 +71,22 @@ The **Train Management System (TMS)** completely modernizes station administrati
 
 ```mermaid
 graph TD
-    subgraph StationStaff ["👥 STATION PERSONNEL"]
-        U1["Station Master"]
-        U2["Traffic Inspector"]
-        U3["S&T Maintainer"]
-    end
-
-    subgraph SecurityLayer ["🔐 SECURE ACCESS & CONTROLS"]
-        S1["Role-Based Authentication"]
-        S2["Live Session & Handover Tracker"]
-        S3["Flicker-Free Double Buffering"]
-    end
-
-    subgraph OperationalRegisters ["📋 41 CENTRALIZED DIGITAL REGISTERS"]
-        R1["🔵 Operations & Traffic (REG-001 to REG-004, REG-007...)"]
-        R2["🟢 S&T Maintenance & Testing (REG-005, REG-006, REG-014...)"]
-        R3["🟠 Infrastructure & Power Logs (REG-015, REG-024, REG-031...)"]
-        R4["🔴 Safety Meetings & Inspections (REG-009, REG-010, REG-013...)"]
-    end
-
-    subgraph DatabaseLayer ["🗄️ CENTRALIZED ENTERPRISE DATABASE"]
-        DB[("Microsoft SQL Server - Database: TMS_2024_New")]
-    end
-
-    subgraph ReportingEngine ["📊 REG-041 CONSOLIDATED DYNAMIC REPORTS"]
-        REP["Multi-Register Cross Query Engine (Strict 1-3 Day Limits)"]
-    end
-
-    subgraph ExportOutputs ["📤 AUDIT & COMPLIANCE OUTPUTS"]
-        E1["📄 Multi-Page Landscape PDF Generator"]
-        E2["📊 Native Excel XML Spreadsheet Export"]
-        E3["📋 RFC 4180 Standard CSV Data Export"]
-        E4["🖨️ High-Resolution Print Engine"]
-    end
-
-    StationStaff --> SecurityLayer
-    SecurityLayer --> OperationalRegisters
-    OperationalRegisters --> DatabaseLayer
-    DatabaseLayer --> ReportingEngine
-    ReportingEngine --> ExportOutputs
+    A[👥 Station Master / Inspector / Maintainer] --> B[🔐 Login & Session Management]
+    B --> C[🎛️ Centralized Navigation Dashboard]
+    
+    C --> D1[🔵 Station Operations & Traffic\nREG-001 to REG-004, REG-007, etc.]
+    C --> D2[🟢 S&T Maintenance & Testing\nREG-005, REG-006, REG-014, etc.]
+    C --> D3[🟠 Infrastructure & Power Logs\nREG-015, REG-024, REG-031, etc.]
+    C --> D4[🔴 Safety Meetings & Inspections\nREG-009, REG-010, REG-025, etc.]
+    
+    D1 & D2 & D3 & D4 --> E[(🗄️ Centralized Database\nSQL Server: TMS_2024_New)]
+    
+    E --> F[📊 REG-041 Consolidated Dynamic Reports Engine]
+    
+    F --> G1[📄 Multi-Page Landscape PDF Generator]
+    F --> G2[📊 Native Excel XML Spreadsheet .xls]
+    F --> G3[📋 RFC 4180 CSV Export .csv]
+    F --> G4[🖨️ Direct High-Resolution Printing]
 ```
 
 <br/>
