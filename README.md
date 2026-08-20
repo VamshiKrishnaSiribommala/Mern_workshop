@@ -30,7 +30,7 @@
   <tr>
     <td align="left" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); padding: 25px 30px; border-radius: 12px; border-left: 6px solid #38bdf8; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);">
       <h3 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 18px; font-family: 'Segoe UI', sans-serif;">
-        🎯 AIM & MAIN OBJECTIVE OF THE PROJECT
+        🎯 AIM &amp; MAIN OBJECTIVE OF THE PROJECT
       </h3>
       <p style="color: #f1f5f9; font-size: 15.5px; line-height: 1.7; margin: 0; font-family: 'Segoe UI', sans-serif;">
         <b>The main objective of the Train Management System is to safely monitor, control, and manage train movements by replacing manual registers with a centralized digital system that stores train movement information, captures operational records, and generates reports for safety, operational control, and audits.</b>
@@ -51,17 +51,41 @@ Traditional railway station operations depend on dozens of physical paper logboo
 
 The **Train Management System (TMS)** completely modernizes station administration into a single, high-performance desktop application:
 
-```
-┌──────────────────────────────────────────────────┐        ┌────────────────────────────────────────────────────────┐
-│           🛑 TRADITIONAL PAPER SYSTEM            │        │           ⚡ CENTRALIZED DIGITAL TMS PLATFORM          │
-├──────────────────────────────────────────────────┤        ├────────────────────────────────────────────────────────┤
-│ ❌ 41 Bulky, physical paper books per station    │  ───>  │ ✅ 1 Centralized digital system storing all movements  │
-│ ❌ Risk of damaged, torn, or misplaced pages    │        │ ✅ Permanent, secure SQL Server database records       │
-│ ❌ Time-consuming, manual shift handovers        │        │ ✅ Instant electronic handovers with digital timestamps│
-│ ❌ Hours spent compiling inspection audit papers │        │ ✅ Instant 1-Click Multi-Page PDF & Excel reports      │
-│ ❌ Flipping through hundreds of paper records    │        │ ✅ Real-time multi-column search across all registers  │
-└──────────────────────────────────────────────────┘        └────────────────────────────────────────────────────────┘
-```
+<table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
+  <tr>
+    <!-- Traditional Column -->
+    <td width="48%" valign="top" style="background-color: #fff1f2; border: 1px solid #fecdd3; border-radius: 10px; padding: 20px;">
+      <h3 style="color: #e11d48; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
+        🛑 TRADITIONAL PAPER SYSTEM
+      </h3>
+      <ul style="color: #881337; line-height: 1.8; margin: 0; padding-left: 20px; font-size: 14px;">
+        <li>❌ <b>41 Bulky, physical paper books</b> per station.</li>
+        <li>❌ <b>Risk of damaged, torn, or misplaced pages</b> over time.</li>
+        <li>❌ <b>Time-consuming, manual shift handovers</b> and paper audits.</li>
+        <li>❌ <b>Hours spent compiling inspection audit papers</b> manually.</li>
+        <li>❌ <b>Flipping through hundreds of paper records</b> for past logs.</li>
+      </ul>
+    </td>
+    
+    <td width="4%" align="center" style="vertical-align: middle; border: none;">
+      <span style="font-size: 24px; color: #64748b; font-weight: bold;">➔</span>
+    </td>
+
+    <!-- Modern TMS Column -->
+    <td width="48%" valign="top" style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 20px;">
+      <h3 style="color: #16a34a; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
+        ⚡ CENTRALIZED DIGITAL TMS PLATFORM
+      </h3>
+      <ul style="color: #14532d; line-height: 1.8; margin: 0; padding-left: 20px; font-size: 14px;">
+        <li>✅ <b>1 Centralized digital system</b> storing all station movements.</li>
+        <li>✅ <b>Permanent, secure SQL Server database records</b> with zero data loss.</li>
+        <li>✅ <b>Instant electronic handovers</b> with digital timestamps and Staff IDs.</li>
+        <li>✅ <b>Instant 1-Click Multi-Page PDF &amp; Excel reports</b> for audits.</li>
+        <li>✅ <b>Real-time multi-column search</b> across all 40 registers instantly.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -99,76 +123,49 @@ graph TD
 <summary><b>🔍 Click here to view all 41 Operational Railway Registers</b></summary>
 <br/>
 
-### 🔵 Department 1: Station Operations & Traffic (17 Registers)
-> *Safely monitor daily train traffic, passenger grievances, shift handovers, and station movements.*
-
-| Register Code | Register Name | Operational Scope & Tracked Information |
+| Register Code | Register Name | Operational Scope &amp; Tracked Information |
 | :---: | :--- | :--- |
-| `REG-001` | **Station Master's Diary** | Daily station operational log, category classification, event narrative, and reported by. |
-| `REG-002` | **Train Signal Register** | Train number, UP/DOWN direction, platform/line, arrival, departure, and passed times. |
-| `REG-003` | **SWR Acknowledgment** | Station Working Rules assurance, staff ID, rule version, reading date, and verifier name. |
-| `REG-004` | **Caution Order Register** | Speed limit restrictions (10–160 km/h), section, engineering reason, and validity period. |
-| `REG-007` | **Bio-Metric Attendance** | Staff ID, shift assigned (Morning/Evening/Night), punch timestamps, and duty presence. |
-| `REG-008` | **Stabled Load Register** | Train/Rake ID, stabling siding/line, stabled time, and handbrake pinning safety checks. |
-| `REG-011` | **Public Complaints** | Passenger name, PNR / ticket number, complaint category, and grievance details. |
-| `REG-012` | **Staff Grievances** | Staff employee ID, issue type, grievance subject, and resolution remarks. |
-| `REG-021` | **Complete Arrival Register** | Train number, arrival time, wagon count (1–120), guard ID, and SM verification. |
-| `REG-022` | **Control Instructions** | Directives from Section Controller, message type, validity window, and staff acknowledgement. |
-| `REG-023` | **SM Relief Diary** | Relieving SM ID, Relieved SM ID, handover time, pending operational issues, and weather. |
-| `REG-028` | **Staff Biodata & Training** | Employee ID, PME medical exam dates, safety camp refresher dates, and competency expiry. |
-| `REG-029` | **Assurance Register** | Safety circular acknowledgment, document ID, rule version, and digital sign-off. |
-| `REG-030` | **Private Number (PN) Sheet** | PN exchange numbers, purpose, associated train number, and recipient station master. |
-| `REG-032` | **Attendance Late Marks** | Shift timing compliance, late arrival remarks, and supervisor authorization. |
-| `REG-033` | **Passenger Complaint Log** | Detailed passenger grievance, 10-digit mobile number, PNR, department, and status. |
-| `REG-034` | **Employee Complaint Log** | Internal staff grievances, urgency level (Low/Medium/High/Critical), and resolution. |
-
----
-
-### 🟢 Department 2: Signal & Telecom (S&T) Maintenance (10 Registers)
-> *Track signaling gear, point machines, interlocking tests, and fault rectifications.*
-
-| Register Code | Register Name | Operational Scope & Tracked Information |
-| :---: | :--- | :--- |
-| `REG-005` | **Signal / Point / Block Failure** | Asset type, asset ID, failure timestamp, reported maintainer, and rectification time. |
-| `REG-006` | **S&T Discon / Recon** | Disconnection permit, gear ID, maintainer ID, SM approval, and reconnection time. |
-| `REG-014` | **Miscellaneous Counter** | Emergency Route Release / Calling-on counters, old value, new value, and auth ref. |
-| `REG-016` | **Crank Handle Register** | Point number, crank handle ID, authorization PN, operator ID, and extraction log. |
-| `REG-017` | **Crank Handle Testing** | Handle ID, test date, test type, tester ID, and interlocking test outcome (Pass/Fail). |
-| `REG-018` | **Cross-Over Testing** | Crossover ID, locking verification, detection verification, and maintainer signature. |
-| `REG-019` | **Signal Failure Register** | Signal ID, failure timestamp, failure classification, root cause, and repair actions. |
-| `REG-020` | **Emergency Key Register** | Emergency key ID, asset ID, checkout/return timestamps, and controller authorization. |
-| `REG-038` | **Joint Inspection** | Joint departments (S&T + Engineering/P-Way), asset ID, measured value, and consensus. |
-| `REG-040` | **Failure Rectification** | Failure link ID, root cause, repair actions performed, and post-repair test result. |
-
----
-
-### 🟠 Department 3: Infrastructure & Electrical Power (4 Registers)
-> *Manage industrial sidings, overhead traction (OHE), platform maintenance, and diesel generators.*
-
-| Register Code | Register Name | Operational Scope & Tracked Information |
-| :---: | :--- | :--- |
-| `REG-015` | **Siding Key Register** | Siding key ID, issued staff, purpose, checkout/return timestamps, and safety checklist. |
-| `REG-024` | **Traffic / Power Block** | Block type (Line/Power/Joint), section, granted time, and cancellation time. |
-| `REG-031` | **Petty Repairs** | Asset category, asset ID, defect description, assigned department, and completion status. |
-| `REG-035` | **Power Supply & DG Log** | Primary source (EB/Solar), failure time, DG run hours, and diesel fuel level (liters). |
-
----
-
-### 🔴 Department 4: Safety & Audit Engine (10 Registers)
-> *Regulatory compliance, officer audits, surprise night visits, and consolidated audit reporting.*
-
-| Register Code | Register Name | Operational Scope & Tracked Information |
-| :---: | :--- | :--- |
-| `REG-009` | **Fog Signalman Deployment** | Staff ID, post kilometer location, detonator count, and shift start/end times. |
-| `REG-010` | **Night Inspection Register** | Inspecting officer name, visit time, staff alertness, and night-working observations. |
-| `REG-013` | **Inspection & Observations** | Officer ID, inspection scope, deficiencies observed, and compliance due date. |
-| `REG-025` | **Safety Meeting Register** | Meeting type, chairperson, attendees, agenda, Minutes of Meeting (MoM), and action items. |
-| `REG-026` | **HQ Safety Circulars** | Circular reference number, subject, effective date, and SM acknowledgment stamp. |
-| `REG-027` | **Safety Meeting Part 2** | Deliberations summary, safety directives, action item assignees, and deadlines. |
-| `REG-036` | **Officers Inspection** | Division officer inspection, station inspected, irregularities found, and priority level. |
-| `REG-037` | **Traffic Inspector (TI) Audit** | TI credentials, operational audit findings, rule violation citations, and instructions. |
-| `REG-039` | **Night Inspection Part 2** | Signal visibility checks, safety equipment status, and corrective actions taken. |
-| `REG-041` | **Consolidated Dynamic Reports** | **Multi-table cross-register querying, 1–3 day filter engine, and PDF/Excel/CSV exports.** |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-001</span> | **Station Master's Diary** | Daily station operational log, category classification, event narrative, and reported by. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-002</span> | **Train Signal Register** | Train number, UP/DOWN direction, platform/line, arrival, departure, and passed times. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-003</span> | **SWR Acknowledgment** | Station Working Rules assurance, staff ID, rule version, reading date, and verifier name. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-004</span> | **Caution Order Register** | Speed limit restrictions (10–160 km/h), section, engineering reason, and validity period. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-005</span> | **Signal / Point / Block Failure** | Asset type, asset ID, failure timestamp, reported maintainer, and rectification time. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-006</span> | **S&amp;T Discon / Recon** | Disconnection permit, gear ID, maintainer ID, SM approval, and reconnection time. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-007</span> | **Bio-Metric Attendance** | Staff ID, shift assigned (Morning/Evening/Night), punch timestamps, and duty presence. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-008</span> | **Stabled Load Register** | Train/Rake ID, stabling siding/line, stabled time, and handbrake pinning safety checks. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-009</span> | **Fog Signalman Deployment** | Staff ID, post kilometer location, detonator count, and shift start/end times. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-010</span> | **Night Inspection Register** | Inspecting officer name, visit time, staff alertness, and night-working observations. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-011</span> | **Public Complaints** | Passenger name, PNR / ticket number, complaint category, and grievance details. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-012</span> | **Staff Grievances** | Staff employee ID, issue type, grievance subject, and resolution remarks. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-013</span> | **Inspection &amp; Observations** | Officer ID, inspection scope, deficiencies observed, and compliance due date. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-014</span> | **Miscellaneous Counter** | Emergency Route Release / Calling-on counters, old value, new value, and auth ref. |
+| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-015</span> | **Siding Key Register** | Siding key ID, issued staff, purpose, checkout/return timestamps, and safety checklist. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-016</span> | **Crank Handle Register** | Point number, crank handle ID, authorization PN, operator ID, and extraction log. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-017</span> | **Crank Handle Testing** | Handle ID, test date, test type, tester ID, and interlocking test outcome (Pass/Fail). |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-018</span> | **Cross-Over Testing** | Crossover ID, locking verification, detection verification, and maintainer signature. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-019</span> | **Signal Failure Register** | Signal ID, failure timestamp, failure classification, root cause, and repair actions. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-020</span> | **Emergency Key Register** | Emergency key ID, asset ID, checkout/return timestamps, and controller authorization. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-021</span> | **Complete Arrival Register** | Train number, arrival time, wagon count (1–120), guard ID, and SM verification. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-022</span> | **Control Instructions** | Directives from Section Controller, message type, validity window, and staff acknowledgement. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-023</span> | **SM Relief Diary** | Relieving SM ID, Relieved SM ID, handover time, pending operational issues, and weather. |
+| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-024</span> | **Traffic / Power Block** | Block type (Line/Power/Joint), section, granted time, and cancellation time. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-025</span> | **Safety Meeting Register** | Meeting type, chairperson, attendees, agenda, Minutes of Meeting (MoM), and action items. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-026</span> | **HQ Safety Circulars** | Circular reference number, subject, effective date, and SM acknowledgment stamp. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-027</span> | **Safety Meeting Part 2** | Deliberations summary, safety directives, action item assignees, and deadlines. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-028</span> | **Staff Biodata &amp; Training** | Employee ID, PME medical exam dates, safety camp refresher dates, and competency expiry. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-029</span> | **Assurance Register** | Safety circular acknowledgment, document ID, rule version, and digital sign-off. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-030</span> | **Private Number (PN) Sheet** | PN exchange numbers, purpose, associated train number, and recipient station master. |
+| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-031</span> | **Petty Repairs** | Asset category, asset ID, defect description, assigned department, and completion status. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-032</span> | **Attendance Late Marks** | Shift timing compliance, late arrival remarks, and supervisor authorization. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-033</span> | **Passenger Complaint Log** | Detailed passenger grievance, 10-digit mobile number, PNR, department, and status. |
+| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-034</span> | **Employee Complaint Log** | Internal staff grievances, urgency level (Low/Medium/High/Critical), and resolution. |
+| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-035</span> | **Power Supply &amp; DG Log** | Primary source (EB/Solar), failure time, DG run hours, and diesel fuel level (liters). |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-036</span> | **Officers Inspection** | Division officer inspection, station inspected, irregularities found, and priority level. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-037</span> | **Traffic Inspector (TI) Audit** | TI credentials, operational audit findings, rule violation citations, and instructions. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-038</span> | **Joint Inspection** | Joint departments (S&T + Engineering/P-Way), asset ID, measured value, and consensus. |
+| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-039</span> | **Night Inspection Part 2** | Signal visibility checks, safety equipment status, and corrective actions taken. |
+| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-040</span> | **Failure Rectification** | Failure link ID, root cause, repair actions performed, and post-repair test result. |
+| <span style="background-color:#7c3aed;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-041</span> | **Consolidated Dynamic Reports** | **Multi-table cross-register querying, 1–3 day filter engine, and PDF/Excel/CSV exports.** |
 
 </details>
 
