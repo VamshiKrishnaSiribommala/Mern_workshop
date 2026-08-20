@@ -1,267 +1,605 @@
 <div align="center">
 
 # 🚆 INDIAN RAILWAYS — TRAIN MANAGEMENT SYSTEM (TMS)
+
 ### 🇮🇳 *Smart Digital Solution for Railway Station Registers & Centralized Operational Control*
 
 <br/>
 
-<!-- Animated Typing Dynamic Banner -->
+<!-- Animated Typing Banner -->
 <a href="#">
   <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=26&duration=2500&pause=1000&color=00D2FF&center=true&vCenter=true&width=850&height=55&lines=Centralized+Digital+Train+Management;Safely+Monitor+%26+Control+Train+Movements;41+Operational+Registers+Digitized;Instant+Cross-Register+Dynamic+Audit+Reports" alt="TMS Animated Header" />
 </a>
 
 <br/>
 
-<!-- Modern Status Badges -->
+<!-- Technology Badges -->
 <p align="center">
+
   <img src="https://img.shields.io/badge/Platform-Windows%20Forms%20Desktop-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Platform" />
+
   <img src="https://img.shields.io/badge/Framework-.NET%20Framework%204.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+
   <img src="https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+
   <img src="https://img.shields.io/badge/Database-MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="Database" />
+
   <img src="https://img.shields.io/badge/Reports-PDF%20%7C%20Excel%20%7C%20CSV-FF6F00?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Reports" />
+
 </p>
 
 <br/>
 
 ---
 
-<!-- Highlighted Main Objective / Aim Card -->
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="left" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); padding: 25px 30px; border-radius: 12px; border-left: 6px solid #38bdf8; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);">
-      <h3 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 18px; font-family: 'Segoe UI', sans-serif;">
-        🎯 AIM &amp; MAIN OBJECTIVE OF THE PROJECT
-      </h3>
-      <p style="color: #f1f5f9; font-size: 15.5px; line-height: 1.7; margin: 0; font-family: 'Segoe UI', sans-serif;">
-        <b>The main objective of the Train Management System is to safely monitor, control, and manage train movements by replacing manual registers with a centralized digital system that stores train movement information, captures operational records, and generates reports for safety, operational control, and audits.</b>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
 </div>
 
-<br/>
+# 🎯 Aim & Main Objective of the Project
 
-## 🌟 Why Train Management System (TMS)?
+The main objective of the **Train Management System (TMS)** is to safely monitor, control, and manage train movements by replacing manual railway registers with a centralized digital system.
 
-Traditional railway station operations depend on dozens of physical paper logbooks maintained manually by Station Masters, Traffic Inspectors, and S&T Maintainers. 
+The system stores train movement information, captures operational records, manages railway station registers, and generates reports for:
 
-The **Train Management System (TMS)** completely modernizes station administration into a single, high-performance desktop application:
+- 🚆 Train Operations
+- 🛡️ Safety Monitoring
+- 📋 Operational Control
+- 🔍 Audits and Inspections
+- 📊 Management Reporting
 
-<table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
-  <tr>
-    <!-- Traditional Column -->
-    <td width="48%" valign="top" style="background-color: #fff1f2; border: 1px solid #fecdd3; border-radius: 10px; padding: 20px;">
-      <h3 style="color: #e11d48; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
-        🛑 TRADITIONAL PAPER SYSTEM
-      </h3>
-      <ul style="color: #881337; line-height: 1.8; margin: 0; padding-left: 20px; font-size: 14px;">
-        <li>❌ <b>41 Bulky, physical paper books</b> per station.</li>
-        <li>❌ <b>Risk of damaged, torn, or misplaced pages</b> over time.</li>
-        <li>❌ <b>Time-consuming, manual shift handovers</b> and paper audits.</li>
-        <li>❌ <b>Hours spent compiling inspection audit papers</b> manually.</li>
-        <li>❌ <b>Flipping through hundreds of paper records</b> for past logs.</li>
-      </ul>
-    </td>
-    
-    <td width="4%" align="center" style="vertical-align: middle; border: none;">
-      <span style="font-size: 24px; color: #64748b; font-weight: bold;">➔</span>
-    </td>
+> **The goal is simple: Replace manual paperwork with a centralized, searchable, secure, and efficient digital railway management system.**
 
-    <!-- Modern TMS Column -->
-    <td width="48%" valign="top" style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 20px;">
-      <h3 style="color: #16a34a; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
-        ⚡ CENTRALIZED DIGITAL TMS PLATFORM
-      </h3>
-      <ul style="color: #14532d; line-height: 1.8; margin: 0; padding-left: 20px; font-size: 14px;">
-        <li>✅ <b>1 Centralized digital system</b> storing all station movements.</li>
-        <li>✅ <b>Permanent, secure SQL Server database records</b> with zero data loss.</li>
-        <li>✅ <b>Instant electronic handovers</b> with digital timestamps and Staff IDs.</li>
-        <li>✅ <b>Instant 1-Click Multi-Page PDF &amp; Excel reports</b> for audits.</li>
-        <li>✅ <b>Real-time multi-column search</b> across all 40 registers instantly.</li>
-      </ul>
-    </td>
-  </tr>
+---
+
+# 🌟 Why Train Management System (TMS)?
+
+Traditional railway station operations depend on multiple physical paper registers maintained manually by Station Masters, Traffic Inspectors, and Signal & Telecom Maintainers.
+
+The **Train Management System (TMS)** transforms this manual process into a centralized digital platform.
+
+<table>
+<tr>
+
+<td width="48%" valign="top">
+
+## 🛑 Traditional Paper System
+
+❌ **41 separate physical registers**
+
+❌ Risk of damaged, torn, or misplaced records
+
+❌ Manual shift handovers
+
+❌ Time-consuming inspection preparation
+
+❌ Difficult to search old records
+
+❌ Hundreds of pages must be checked manually
+
+❌ Manual compilation of audit reports
+
+</td>
+
+<td width="4%" align="center">
+
+# ➜
+
+</td>
+
+<td width="48%" valign="top">
+
+## ⚡ Centralized Digital TMS
+
+✅ **One centralized digital system**
+
+✅ Permanent records stored in SQL Server
+
+✅ Digital shift handovers with timestamps
+
+✅ Faster inspection and audit preparation
+
+✅ Real-time search across registers
+
+✅ Easy access to historical records
+
+✅ Instant PDF, Excel, and CSV reports
+
+</td>
+
+</tr>
 </table>
 
-<br/>
+---
+
+> ## 🚀 Result
+>
+> **Instead of managing 41 separate paper registers, railway staff can manage operational information through one centralized Train Management System.**
 
 ---
 
-## 🏛️ System Architecture Workflow
+# 🏛️ System Architecture Workflow
 
 ```mermaid
-graph TD
-    A[👥 Station Master / Inspector / Maintainer] --> B[🔐 Login & Session Management]
-    B --> C[🎛️ Centralized Navigation Dashboard]
-    
-    C --> D1[🔵 Station Operations & Traffic\nREG-001 to REG-004, REG-007, etc.]
-    C --> D2[🟢 S&T Maintenance & Testing\nREG-005, REG-006, REG-014, etc.]
-    C --> D3[🟠 Infrastructure & Power Logs\nREG-015, REG-024, REG-031, etc.]
-    C --> D4[🔴 Safety Meetings & Inspections\nREG-009, REG-010, REG-025, etc.]
-    
-    D1 & D2 & D3 & D4 --> E[(🗄️ Centralized Database\nSQL Server: TMS_2024_New)]
-    
-    E --> F[📊 REG-041 Consolidated Dynamic Reports Engine]
-    
-    F --> G1[📄 Multi-Page Landscape PDF Generator]
-    F --> G2[📊 Native Excel XML Spreadsheet .xls]
-    F --> G3[📋 RFC 4180 CSV Export .csv]
-    F --> G4[🖨️ Direct High-Resolution Printing]
-```
+flowchart TD
 
-<br/>
+    A[👥 Station Master / Inspector / Maintainer]
+    A --> B[🔐 Login & Session Management]
+
+    B --> C[🎛️ Centralized TMS Dashboard]
+
+    C --> D1[🔵 Station Operations & Traffic]
+    C --> D2[🟢 Signal & Telecom Maintenance]
+    C --> D3[🟠 Infrastructure & Electrical Power]
+    C --> D4[🔴 Safety & Audit]
+
+    D1 --> E[(🗄️ Centralized SQL Server Database)]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+
+    E --> F[📊 REG-041 Dynamic Reports Engine]
+
+    F --> G1[📄 PDF Reports]
+    F --> G2[📊 Excel Export]
+    F --> G3[📋 CSV Export]
+    F --> G4[🖨️ Print Reports]
+```
 
 ---
 
-## 📋 The 41 Operational Registers by Department
+# 📋 The 41 Operational Registers
 
-<details open>
-<summary><b>🔍 Click here to view all 41 Operational Railway Registers</b></summary>
-<br/>
+The Train Management System digitizes **41 important railway operational registers**.
 
-| Register Code | Register Name | Operational Scope &amp; Tracked Information |
-| :---: | :--- | :--- |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-001</span> | **Station Master's Diary** | Daily station operational log, category classification, event narrative, and reported by. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-002</span> | **Train Signal Register** | Train number, UP/DOWN direction, platform/line, arrival, departure, and passed times. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-003</span> | **SWR Acknowledgment** | Station Working Rules assurance, staff ID, rule version, reading date, and verifier name. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-004</span> | **Caution Order Register** | Speed limit restrictions (10–160 km/h), section, engineering reason, and validity period. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-005</span> | **Signal / Point / Block Failure** | Asset type, asset ID, failure timestamp, reported maintainer, and rectification time. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-006</span> | **S&amp;T Discon / Recon** | Disconnection permit, gear ID, maintainer ID, SM approval, and reconnection time. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-007</span> | **Bio-Metric Attendance** | Staff ID, shift assigned (Morning/Evening/Night), punch timestamps, and duty presence. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-008</span> | **Stabled Load Register** | Train/Rake ID, stabling siding/line, stabled time, and handbrake pinning safety checks. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-009</span> | **Fog Signalman Deployment** | Staff ID, post kilometer location, detonator count, and shift start/end times. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-010</span> | **Night Inspection Register** | Inspecting officer name, visit time, staff alertness, and night-working observations. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-011</span> | **Public Complaints** | Passenger name, PNR / ticket number, complaint category, and grievance details. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-012</span> | **Staff Grievances** | Staff employee ID, issue type, grievance subject, and resolution remarks. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-013</span> | **Inspection &amp; Observations** | Officer ID, inspection scope, deficiencies observed, and compliance due date. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-014</span> | **Miscellaneous Counter** | Emergency Route Release / Calling-on counters, old value, new value, and auth ref. |
-| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-015</span> | **Siding Key Register** | Siding key ID, issued staff, purpose, checkout/return timestamps, and safety checklist. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-016</span> | **Crank Handle Register** | Point number, crank handle ID, authorization PN, operator ID, and extraction log. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-017</span> | **Crank Handle Testing** | Handle ID, test date, test type, tester ID, and interlocking test outcome (Pass/Fail). |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-018</span> | **Cross-Over Testing** | Crossover ID, locking verification, detection verification, and maintainer signature. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-019</span> | **Signal Failure Register** | Signal ID, failure timestamp, failure classification, root cause, and repair actions. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-020</span> | **Emergency Key Register** | Emergency key ID, asset ID, checkout/return timestamps, and controller authorization. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-021</span> | **Complete Arrival Register** | Train number, arrival time, wagon count (1–120), guard ID, and SM verification. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-022</span> | **Control Instructions** | Directives from Section Controller, message type, validity window, and staff acknowledgement. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-023</span> | **SM Relief Diary** | Relieving SM ID, Relieved SM ID, handover time, pending operational issues, and weather. |
-| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-024</span> | **Traffic / Power Block** | Block type (Line/Power/Joint), section, granted time, and cancellation time. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-025</span> | **Safety Meeting Register** | Meeting type, chairperson, attendees, agenda, Minutes of Meeting (MoM), and action items. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-026</span> | **HQ Safety Circulars** | Circular reference number, subject, effective date, and SM acknowledgment stamp. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-027</span> | **Safety Meeting Part 2** | Deliberations summary, safety directives, action item assignees, and deadlines. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-028</span> | **Staff Biodata &amp; Training** | Employee ID, PME medical exam dates, safety camp refresher dates, and competency expiry. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-029</span> | **Assurance Register** | Safety circular acknowledgment, document ID, rule version, and digital sign-off. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-030</span> | **Private Number (PN) Sheet** | PN exchange numbers, purpose, associated train number, and recipient station master. |
-| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-031</span> | **Petty Repairs** | Asset category, asset ID, defect description, assigned department, and completion status. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-032</span> | **Attendance Late Marks** | Shift timing compliance, late arrival remarks, and supervisor authorization. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-033</span> | **Passenger Complaint Log** | Detailed passenger grievance, 10-digit mobile number, PNR, department, and status. |
-| <span style="background-color:#0284c7;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-034</span> | **Employee Complaint Log** | Internal staff grievances, urgency level (Low/Medium/High/Critical), and resolution. |
-| <span style="background-color:#ea580c;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-035</span> | **Power Supply &amp; DG Log** | Primary source (EB/Solar), failure time, DG run hours, and diesel fuel level (liters). |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-036</span> | **Officers Inspection** | Division officer inspection, station inspected, irregularities found, and priority level. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-037</span> | **Traffic Inspector (TI) Audit** | TI credentials, operational audit findings, rule violation citations, and instructions. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-038</span> | **Joint Inspection** | Joint departments (S&T + Engineering/P-Way), asset ID, measured value, and consensus. |
-| <span style="background-color:#dc2626;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-039</span> | **Night Inspection Part 2** | Signal visibility checks, safety equipment status, and corrective actions taken. |
-| <span style="background-color:#16a34a;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-040</span> | **Failure Rectification** | Failure link ID, root cause, repair actions performed, and post-repair test result. |
-| <span style="background-color:#7c3aed;color:white;padding:3px 8px;border-radius:4px;font-weight:bold;">REG-041</span> | **Consolidated Dynamic Reports** | **Multi-table cross-register querying, 1–3 day filter engine, and PDF/Excel/CSV exports.** |
+They are organized into four major operational departments.
 
-</details>
-
-<br/>
+| Department | Registers | Main Purpose |
+|---|:---:|---|
+| 🔵 Station Operations & Traffic | 17 | Train operations, handovers, attendance, complaints |
+| 🟢 Signal & Telecom Maintenance | 10 | Signal equipment, testing, failures, maintenance |
+| 🟠 Infrastructure & Electrical Power | 4 | Power blocks, sidings, repairs, DG logs |
+| 🔴 Safety & Audit Engine | 10 | Safety inspections, meetings, audits, reporting |
+| **TOTAL** | **41** | **Centralized Railway Operational Management** |
 
 ---
 
-## 📊 In-Depth: REG-041 Consolidated Dynamic Reports Engine
+# 🔵 Department 1: Station Operations & Traffic
 
-The **Dynamic Reports Module (REG-041)** is the flagship audit and analytical engine of TMS. It automatically aggregates operational records across all 40 individual register tables into a single unified workspace:
+### Total Registers: 17
 
-```
-╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║ 📅 PRESETS : [ Today (1 Day) ]   [ Yesterday & Today (2 Days) ]   [ Last 3 Days (Max 3-Day Limit) ]          ║
-║ 🎯 SCOPE   : [ ALL REGISTERS (001 - 040 CONSOLIDATED) ▼ ]         [ 🔍 FETCH DATA ]                          ║
-╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
-║ 📈 STATS   : Total Records: 1,482  |  Active Tables: 38/40  |  Date Span: 18-Aug-2026 to 20-Aug-2026         ║
-║ 🔍 SEARCH  : [ Filter across any column, train number, or keyword in real-time...                         ] ║
-║ 📥 EXPORTS : [ 📥 PDF (Multi-Page) ]   [ 📊 Excel (.xls) ]   [ 📄 CSV (.csv) ]   [ 🖨️ Print ]                 ║
-╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
-║ S.No │ Reg Code │ Register Name │ Record ID │ Category │ Description │ Asset/Point │ Status │ Staff │ Time   ║
-║  1   │ REG-001  │ Station Diary │ TMS-001-..│ Operation│ Track clear │ Platform 1  │ Done   │ 2323  │ 10:15  ║
-║  2   │ REG-002  │ Train Signal  │ TMS-002-..│ Express  │ 12727 UP    │ Line 1      │ Depart │ 5412  │ 10:20  ║
-║  3   │ REG-005  │ Signal Fail   │ TMS-005-..│ Signal   │ Pt 101 lock │ Signal S-4  │ Fixed  │ 9842  │ 10:35  ║
-╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-```
+> Safely manage daily train traffic, station operations, staff handovers, attendance, and passenger or employee grievances.
 
-### 💎 Key Capabilities of Dynamic Reports:
-
-1. **⚡ Fast Cross-Register Querying**:
-   - Queries across 40 separate SQL Server tables simultaneously in milliseconds using optimized indexed date filters.
-2. **📅 Strict 1–3 Day Operational Windows**:
-   - Provides instant 1-click presets (`Today`, `Yesterday & Today`, `Last 3 Days`) with an enforced 3-day query span for safety and performance compliance.
-3. **🔄 Live Auto-Fetch**:
-   - Data refreshes automatically whenever date boundaries or register dropdown filters change without needing manual clicks.
-4. **📄 High-Definition Multi-Page PDF Exporter**:
-   - Custom GDI+ landscape PDF printing engine featuring official Indian Railways navy headers, bordered table cells, and automatic page breaks with `Page X of Y` pagination.
-5. **📊 Native Excel & CSV File Exports**:
-   - Exports all 11 structured parameters directly into Excel XML spreadsheets (`.xls`) and standard CSV files (`.csv`) for higher management reviews.
-6. **🖱️ 2-Finger Touchpad Horizontal Scrolling**:
-   - Native gesture interception (`WM_MOUSEHWHEEL`) enabling smooth left-and-right two-finger touchpad scrolling across wide multi-column tables.
-7. **🖥️ Clean UI & Taskbar Integration**:
-   - Dynamically adapts to `Screen.WorkingArea`, preventing the Windows Taskbar from ever being hidden.
-
-<br/>
+| Register Code | Register Name | Operational Scope & Tracked Information |
+|---|---|---|
+| `REG-001` | **Station Master's Diary** | Daily station operational log, category classification, event narrative, and reporting details. |
+| `REG-002` | **Train Signal Register** | Train number, UP/DOWN direction, platform or line, arrival, departure, and passed times. |
+| `REG-003` | **SWR Acknowledgment** | Station Working Rules acknowledgment, staff ID, rule version, reading date, and verifier details. |
+| `REG-004` | **Caution Order Register** | Speed restrictions, section details, engineering reason, and validity period. |
+| `REG-007` | **Bio-Metric Attendance** | Staff attendance, assigned shift, punch timestamps, and duty presence. |
+| `REG-008` | **Stabled Load Register** | Train or rake ID, stabling line, stabled time, and handbrake safety checks. |
+| `REG-011` | **Public Complaints** | Passenger details, ticket or PNR information, complaint category, and grievance details. |
+| `REG-012` | **Staff Grievances** | Employee ID, issue type, grievance subject, and resolution remarks. |
+| `REG-021` | **Complete Arrival Register** | Train number, arrival time, wagon count, guard ID, and Station Master verification. |
+| `REG-022` | **Control Instructions** | Directives from the Section Controller, message type, validity period, and acknowledgment. |
+| `REG-023` | **SM Relief Diary** | Relieving SM, relieved SM, handover time, pending operational issues, and weather information. |
+| `REG-028` | **Staff Biodata & Training** | Employee information, medical examination, safety training, and competency expiry. |
+| `REG-029` | **Assurance Register** | Safety circular acknowledgment, document information, rule version, and digital sign-off. |
+| `REG-030` | **Private Number (PN) Sheet** | Private number exchanges, communication purpose, train number, and recipient Station Master. |
+| `REG-032` | **Attendance Late Marks** | Shift timing compliance, late arrival remarks, and supervisor authorization. |
+| `REG-033` | **Passenger Complaint Log** | Detailed passenger grievance tracking, PNR, department, and complaint status. |
+| `REG-034` | **Employee Complaint Log** | Internal employee complaints, urgency level, and resolution status. |
 
 ---
 
-## ⚡ Quick Start & Installation
+# 🟢 Department 2: Signal & Telecom (S&T) Maintenance
 
-### Step 1: Open the Solution
-Open **`TMSfinal1.slnx`** or `TMSfinal1.sln` in **Visual Studio** (2019, 2022, or 2026).
+### Total Registers: 10
 
-### Step 2: Verify Database Connection
-Ensure SQL Server is running and points to `TMS_2024_New` in [`App.config`](file:///c:/Users/Asus/Zeta_resp/TMSfinal1/TMSfinal1/TMSfinal1/App.config):
+> Tracks signaling equipment, point machines, interlocking tests, failures, and maintenance activities.
+
+| Register Code | Register Name | Operational Scope & Tracked Information |
+|---|---|---|
+| `REG-005` | **Signal / Point / Block Failure** | Asset type, asset ID, failure time, reported maintainer, and rectification details. |
+| `REG-006` | **S&T Discon / Recon** | Equipment disconnection permit, gear ID, maintainer details, approval, and reconnection time. |
+| `REG-014` | **Miscellaneous Counter** | Emergency Route Release, Calling-on counters, old value, new value, and authorization reference. |
+| `REG-016` | **Crank Handle Register** | Point number, crank handle ID, authorization number, operator details, and usage record. |
+| `REG-017` | **Crank Handle Testing** | Handle ID, test date, test type, tester ID, and test outcome. |
+| `REG-018` | **Cross-Over Testing** | Crossover identification, locking verification, detection verification, and maintainer details. |
+| `REG-019` | **Signal Failure Register** | Signal ID, failure time, failure classification, root cause, and repair actions. |
+| `REG-020` | **Emergency Key Register** | Emergency key ID, asset ID, checkout time, return time, and authorization details. |
+| `REG-038` | **Joint Inspection** | Joint inspection involving departments, asset ID, measured values, and observations. |
+| `REG-040` | **Failure Rectification** | Failure reference, root cause, repair actions, and post-repair testing result. |
+
+---
+
+# 🟠 Department 3: Infrastructure & Electrical Power
+
+### Total Registers: 4
+
+> Manages sidings, traffic and power blocks, maintenance work, and electrical power records.
+
+| Register Code | Register Name | Operational Scope & Tracked Information |
+|---|---|---|
+| `REG-015` | **Siding Key Register** | Siding key ID, issued staff, purpose, checkout and return time, and safety checklist. |
+| `REG-024` | **Traffic / Power Block** | Block type, section, granted time, and cancellation time. |
+| `REG-031` | **Petty Repairs** | Asset category, asset ID, defect description, assigned department, and completion status. |
+| `REG-035` | **Power Supply & DG Log** | Primary power source, failure time, DG running hours, and diesel fuel information. |
+
+---
+
+# 🔴 Department 4: Safety & Audit Engine
+
+### Total Registers: 10
+
+> Handles regulatory compliance, officer inspections, safety meetings, audits, and consolidated reporting.
+
+| Register Code | Register Name | Operational Scope & Tracked Information |
+|---|---|---|
+| `REG-009` | **Fog Signalman Deployment** | Staff ID, deployment location, detonator count, and shift start and end times. |
+| `REG-010` | **Night Inspection Register** | Inspecting officer, visit time, staff alertness, and night-working observations. |
+| `REG-013` | **Inspection & Observations** | Inspection scope, deficiencies observed, and compliance due date. |
+| `REG-025` | **Safety Meeting Register** | Meeting type, chairperson, attendees, agenda, minutes, and action items. |
+| `REG-026` | **HQ Safety Circulars** | Circular reference, subject, effective date, and Station Master acknowledgment. |
+| `REG-027` | **Safety Meeting Part 2** | Deliberations, safety directives, assigned staff, and deadlines. |
+| `REG-036` | **Officers Inspection** | Officer inspection information, station details, irregularities, and priority. |
+| `REG-037` | **Traffic Inspector (TI) Audit** | Audit findings, operational observations, rule violations, and instructions. |
+| `REG-039` | **Night Inspection Part 2** | Signal visibility checks, safety equipment status, and corrective actions. |
+| `REG-041` | **Consolidated Dynamic Reports** | Cross-register querying, date filtering, and PDF, Excel, CSV, and print reporting. |
+
+---
+
+# ⭐ REG-041 — Consolidated Dynamic Reports
+
+The **REG-041 Dynamic Reports Module** is the central reporting and analytical engine of the Train Management System.
+
+It collects operational information from multiple railway registers and presents it in a unified reporting workspace.
+
+## 🔄 Simple Data Flow
+
+```mermaid
+flowchart LR
+
+    A[📚 Operational Registers<br/>REG-001 to REG-040]
+
+    A --> B[(🗄️ SQL Server Database)]
+
+    B --> C[📊 REG-041 Dynamic Reports]
+
+    C --> D[🔍 Search & Filter]
+    C --> E[📄 PDF]
+    C --> F[📊 Excel]
+    C --> G[📋 CSV]
+    C --> H[🖨️ Print]
+```
+
+---
+
+## 📅 Available Report Filters
+
+| Filter | Description |
+|---|---|
+| **Today** | View records created today |
+| **Yesterday & Today** | View records from the latest 2 days |
+| **Last 3 Days** | View records within a maximum 3-day range |
+| **Register Filter** | View records from a selected register |
+| **Search** | Search using train numbers, staff IDs, keywords, and other data |
+
+---
+
+## 💎 Key Capabilities of Dynamic Reports
+
+### ⚡ Fast Cross-Register Querying
+
+Queries operational information across multiple SQL Server register tables using optimized date filters.
+
+### 📅 Strict 1–3 Day Operational Windows
+
+Provides quick report presets:
+
+- `Today`
+- `Yesterday & Today`
+- `Last 3 Days`
+
+The reporting window is limited to a maximum of three days to maintain focused operational reporting and better performance.
+
+### 🔄 Dynamic Data Retrieval
+
+Records can be retrieved based on:
+
+- Date range
+- Selected register
+- Search keywords
+- Train information
+- Staff information
+- Operational records
+
+### 📄 Multi-Page PDF Reports
+
+Generate structured PDF reports containing:
+
+- Report headers
+- Register information
+- Operational records
+- Automatic page breaks
+- Page numbering
+
+### 📊 Excel Export
+
+Export structured operational information into Excel-compatible files for further analysis and management review.
+
+### 📋 CSV Export
+
+Generate standard CSV files for data sharing and external processing.
+
+### 🖨️ Direct Printing
+
+Reports can be printed directly from the application.
+
+### 🖱️ Horizontal Scrolling
+
+Wide report tables support horizontal navigation for easier viewing of multiple columns.
+
+---
+
+> ## 🏆 REG-041 is the Heart of the System
+>
+> **It brings information from multiple railway operational registers into a centralized reporting environment, helping staff search, analyze, export, print, and review operational data efficiently.**
+
+---
+
+# ⚡ Key System Features
+
+| Feature | Description |
+|---|---|
+| 🔐 User Login | Secure user login and session management |
+| 🎛️ Centralized Dashboard | Single navigation point for all registers |
+| 📚 41 Digital Registers | Digitization of railway operational registers |
+| 🗄️ SQL Server Database | Centralized storage of operational records |
+| 🔍 Search | Search information across records |
+| 📊 Dynamic Reports | Consolidated reporting through REG-041 |
+| 📄 PDF Export | Multi-page operational reports |
+| 📊 Excel Export | Export structured data for analysis |
+| 📋 CSV Export | Standard CSV data export |
+| 🖨️ Print Support | Direct printing of reports |
+| 🔄 Digital Handovers | Electronic record management and timestamps |
+
+---
+
+# ⚡ Quick Start & Installation
+
+## Step 1: Open the Solution
+
+Open either:
+
+```text
+TMSfinal1.slnx
+```
+
+or:
+
+```text
+TMSfinal1.sln
+```
+
+using Visual Studio.
+
+Recommended versions:
+
+- Visual Studio 2019
+- Visual Studio 2022
+- Compatible newer Visual Studio versions
+
+---
+
+## Step 2: Install Required Components
+
+Make sure the following software and components are available:
+
+- Windows
+- Visual Studio
+- .NET Framework 4.7.2
+- Microsoft SQL Server
+- SQL Server Express or a compatible SQL Server instance
+
+---
+
+## Step 3: Verify Database Connection
+
+Open:
+
+```text
+TMSfinal1/App.config
+```
+
+Verify the database connection string:
+
 ```xml
 <connectionStrings>
-  <add name="TMSConnection" 
-       connectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=TMS_2024_New;Integrated Security=True;TrustServerCertificate=True" 
-       providerName="System.Data.SqlClient" />
+  <add
+      name="TMSConnection"
+      connectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=TMS_2024_New;Integrated Security=True;TrustServerCertificate=True"
+      providerName="System.Data.SqlClient" />
 </connectionStrings>
 ```
 
-### Step 3: Run the Application
-Press <kbd>F5</kbd> (or click **▶ Start**). The system will compile and launch the main dashboard!
+Make sure:
 
-<br/>
+1. SQL Server is running.
+2. Your SQL Server instance name is correct.
+3. The database `TMS_2024_New` exists.
+4. The required register tables have been created.
+
+If your SQL Server instance is different, change:
+
+```text
+localhost\SQLEXPRESS
+```
+
+to your actual SQL Server instance name.
 
 ---
 
-## 📁 Clean Repository Structure
+## Step 4: Restore or Create the Database
 
-```plaintext
-📦 Train_Station_Registers
- ┣ 📂 TMSfinal1
- ┃ ┣ 📄 Form_Reg001_StationDiary.cs ... Form_Reg040_FailureInspection.cs (All 40 Registers)
- ┃ ┣ 📄 Form_Reg041_DynamicReports.cs   (Consolidated Reports & Multi-Page PDF Engine)
- ┃ ┣ 📄 DatabaseHelper.cs               (SQL Server connection and queries)
- ┃ ┣ 📄 SessionManager.cs               (User session tracking and role security)
- ┃ ┣ 📄 ThemeManager.cs                 (Railway Navy UI Theme & Visual Styling)
- ┃ ┣ 📄 App.config                      (Database configuration)
- ┃ ┗ 📄 Program.cs                      (Application entry point)
- ┣ 📂 Database                          (SQL table scripts & schema migrations)
- ┣ 📄 .gitignore                        (Visual Studio & .NET ignore rules)
- ┣ 📄 README.md                         (System documentation)
- ┗ 📄 TMSfinal1.slnx                    (Visual Studio solution file)
+Navigate to:
+
+```text
+Database/
 ```
 
-<br/>
+Run the SQL scripts provided in the project to create:
+
+- Database tables
+- Register tables
+- Required schema
+- Supporting database objects
+
+---
+
+## Step 5: Build the Application
+
+Inside Visual Studio:
+
+```text
+Build
+   ↓
+Build Solution
+```
+
+Or use:
+
+```text
+Ctrl + Shift + B
+```
+
+Fix any missing package, dependency, or SQL Server configuration issue if Visual Studio displays an error.
+
+---
+
+## Step 6: Run the Application
+
+Press:
+
+```text
+F5
+```
+
+or click:
+
+```text
+▶ Start
+```
+
+The Train Management System will compile and launch.
+
+---
+
+# 📁 Project Structure
+
+```text
+📦 Train_Station_Registers
+│
+├── 📂 TMSfinal1
+│   │
+│   ├── 📄 Form_Reg001_StationDiary.cs
+│   ├── 📄 Form_Reg002_TrainSignal.cs
+│   ├── 📄 Form_Reg003_SWRAcknowledgment.cs
+│   ├── 📄 ...
+│   ├── 📄 Form_Reg040_FailureInspection.cs
+│   │
+│   ├── 📄 Form_Reg041_DynamicReports.cs
+│   │
+│   ├── 📄 DatabaseHelper.cs
+│   ├── 📄 SessionManager.cs
+│   ├── 📄 ThemeManager.cs
+│   ├── 📄 App.config
+│   └── 📄 Program.cs
+│
+├── 📂 Database
+│   ├── 📄 SQL Table Scripts
+│   └── 📄 Schema Files
+│
+├── 📄 .gitignore
+├── 📄 README.md
+│
+├── 📄 TMSfinal1.sln
+└── 📄 TMSfinal1.slnx
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| **C#** | Main application programming language |
+| **Windows Forms** | Desktop application user interface |
+| **.NET Framework 4.7.2** | Application framework |
+| **Microsoft SQL Server** | Centralized database |
+| **ADO.NET** | Database connectivity |
+| **PDF Reporting** | Multi-page report generation |
+| **Excel Export** | Spreadsheet-based reporting |
+| **CSV Export** | Standard data export |
+| **Visual Studio** | Development environment |
+
+---
+
+# 🎯 Project Objective Summary
+
+The Train Management System is designed to support the digital transformation of railway station operational record management.
+
+The system provides a centralized approach for:
+
+```text
+Manual Paper Registers
+        │
+        ▼
+Digital Register Management
+        │
+        ▼
+Centralized SQL Server Storage
+        │
+        ▼
+Searchable Operational Records
+        │
+        ▼
+Dynamic Reporting
+        │
+        ├── 📄 PDF
+        ├── 📊 Excel
+        ├── 📋 CSV
+        └── 🖨️ Print
+```
+
+---
+
+# 🚀 Benefits of the System
+
+The Train Management System helps improve railway operational record management by providing:
+
+- 📚 Reduced dependency on physical paper registers
+- 🔍 Faster searching of historical records
+- 🗄️ Centralized SQL Server data storage
+- 🔄 Improved shift handover management
+- 📊 Easier audit and inspection reporting
+- 📄 Instant report generation
+- 📈 Better operational visibility
+- 🛡️ Improved record organization
+- ⚡ Faster access to important operational information
 
 ---
 
 <div align="center">
-  <p style="color: #64748b; font-size: 13.5px; font-family: 'Segoe UI', sans-serif;">
-    <b>INDIAN RAILWAYS — TRAIN MANAGEMENT SYSTEM (TMS)</b><br/>
-    <i>Engineered for Operational Safety, High Availability, and Digital Excellence.</i><br/>
-    <sub>© 2026 All rights reserved.</sub>
-  </p>
+
+# 🚆 INDIAN RAILWAYS — TRAIN MANAGEMENT SYSTEM
+
+### *Engineered for Operational Safety, Digital Record Management, and Centralized Reporting.*
+
+<br/>
+
+**41 Operational Registers • Centralized SQL Server • Dynamic Reports • PDF • Excel • CSV**
+
+<br/>
+
+© 2026 All Rights Reserved
+
 </div>
