@@ -5,34 +5,48 @@
 
 <br/>
 
-<!-- Animated Typing Banner -->
+<!-- Animated Typing Dynamic Banner -->
 <a href="https://github.com/VamshiKrishnaSiribommala/Train_Station_Registers">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=24&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&height=50&lines=41+Operational+Registers+Digitized;Real-Time+Input+Validation+(264+Test+Cases);Instant+Multi-Page+Landscape+PDF+%26+Excel+Reports;Zero-Latency+SQL+Server+Cross-Register+Audit" alt="TMS Animated Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=24&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=800&height=50&lines=Centralized+Digital+Train+Management;Safely+Monitor+%26+Control+Train+Movements;41+Operational+Registers+Digitized;Instant+Cross-Register+Dynamic+Audit+Reports" alt="TMS Animated Header" />
 </a>
 
 <br/>
 
-[![Windows Forms](https://img.shields.io/badge/UI-Windows%20Forms%20(GDI%2B)-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#)
-[![.NET Framework](https://img.shields.io/badge/.NET-Framework%204.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](#)
-[![C# 10](https://img.shields.io/badge/Language-C%23%2010.0-239120?style=for-the-badge&logo=csharp&logoColor=white)](#)
-[![SQL Server](https://img.shields.io/badge/Database-MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](#)
-[![Exports](https://img.shields.io/badge/Export%20Engine-PDF%20%7C%20XLS%20%7C%20CSV-F59E0B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](#)
-[![Validation](https://img.shields.io/badge/Validation-264%20Test%20Cases%20Passed-10B981?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
+<!-- Modern Status Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows%20Forms%20Desktop-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Platform" />
+  <img src="https://img.shields.io/badge/Framework-.NET%20Framework%204.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/Language-C%23%2010.0-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Database-MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="Database" />
+  <img src="https://img.shields.io/badge/Reports-PDF%20%7C%20Excel%20%7C%20CSV-FF6F00?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Reports" />
+</p>
 
 <br/>
 
+<!-- Main Objective / Aim Card -->
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="left" style="background: #0f172a; padding: 22px 28px; border-radius: 12px; border-left: 6px solid #38bdf8; box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);">
+      <div style="color: #38bdf8; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+        🎯 AIM & MAIN OBJECTIVE OF THE PROJECT
+      </div>
+      <div style="color: #f8fafc; font-size: 15.5px; line-height: 1.7; font-weight: 500;">
+        The main objective of the <b>Train Management System (TMS)</b> is to safely monitor, control, and manage train movements by replacing manual registers with a centralized digital system that stores train movement information, captures operational records, and generates reports for safety, operational control, and audits.
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <b>A unified, high-security desktop suite designed for Station Masters, Traffic Inspectors, and S&T engineers across Indian Railways to eliminate paper logbooks, automate cross-register compliance, and prevent operational errors.</b>
+  <a href="#-quick-overview"><b>🚀 Quick Overview</b></a> •
+  <a href="#-core-innovations"><b>🌟 Core Innovations</b></a> •
+  <a href="#-the-41-digital-registers"><b>📋 41 Registers Matrix</b></a> •
+  <a href="#-dynamic-reports--audit-engine-reg-041"><b>📊 Dynamic Reports (REG-041)</b></a> •
+  <a href="#-quick-start-guide"><b>⚡ Quick Start</b></a>
 </p>
-
----
-
-[🚀 Quick Overview](#-quick-overview) •
-[🌟 Core Innovations](#-core-innovations) •
-[📋 41 Registers Matrix](#-the-41-digital-registers) •
-[📊 Dynamic Reports (REG-041)](#-dynamic-reports--audit-engine-reg-041) •
-[🛡️ Validation Engine](#-smart-validation-engine-264-test-cases) •
-[⚡ Quick Start (3 Steps)](#-quick-start-guide)
 
 ---
 
@@ -49,8 +63,8 @@ In every railway station, staff record hundreds of critical train events daily a
 | Aspect | 🛑 Traditional Paper Logbooks | ⚡ Modern TMS Platform |
 | :--- | :--- | :--- |
 | **Storage & Volume** | 41 Heavy, physical books per station | **1 Unified, secure desktop application** |
-| **Data Integrity** | Prone to human errors, typos & missing data | **264 Automated positive & negative validation rules** |
-| **Shift Handover** | Manual page-by-page physical review | **Instant electronic handover with digital timestamps** |
+| **Data Integrity** | Prone to human errors, typos & missing data | **Real-time verification, digital timestamps & staff ID tags** |
+| **Shift Handover** | Manual page-by-page physical review | **Instant electronic handover with live status snapshots** |
 | **Audit & Reports** | Days spent aggregating multiple paper files | **1-Click Multi-Page PDF, Excel (.xls) & CSV exports** |
 | **Search & Trace** | Flipping through hundreds of dusty pages | **Live instant search across all 40 register tables** |
 
@@ -76,8 +90,7 @@ graph LR
 
     subgraph CoreEngine ["⚙️ TMS CORE ENGINE"]
         C1[41 Operational Registers]
-        C2[RegisterValidationEngine\n264 Test Cases]
-        C3[Dynamic Reports Engine\nREG-041 Cross-Query]
+        C2[Dynamic Reports Engine\nREG-041 Cross-Query]
     end
 
     subgraph Storage ["🗄️ DATABASE"]
@@ -86,23 +99,23 @@ graph LR
 
     subgraph Outputs ["📤 REPORT OUTPUTS"]
         O1[📄 Multi-Page Landscape PDF]
-        O2[📊 Native Excel XML (.xls)]
-        O3[📋 RFC 4180 CSV]
+        O2[📊 Native Excel XML .xls]
+        O3[📋 RFC 4180 CSV .csv]
     end
 
     Users --> Security --> CoreEngine
-    CoreEngine --> C2 --> DB
-    CoreEngine --> C3 --> Outputs
+    CoreEngine --> C1 --> DB
+    CoreEngine --> C2 --> Outputs
 ```
 
 <br/>
 
-### 🎯 Key Highlights:
-1. **🛡️ 264-Case Real-Time Validation**: Evaluates every parameter against exact operational rules. If input is incorrect, an explanatory dialog specifies **what failed**, **why it's wrong**, and **how to fix it**.
-2. **📊 Consolidated Dynamic Reports (REG-041)**: Queries across all 40 tables with strict 1–3 day limits, live search, and auto-fetching.
-3. **📄 High-Definition PDF Engine**: Custom multi-page landscape PDF generator featuring Indian Railways navy banners, table borders, and automatic page numbering (`Page X of Y`).
-4. **🖱️ Native Touchpad Horizontal Scrolling**: Full support for 2-finger horizontal swipe/drag and `Shift + Wheel` navigation on wide tables with 11+ columns.
-5. **🖥️ Taskbar-Friendly UI**: Bounds calibrated directly to `Screen.WorkingArea` so the Windows taskbar is never hidden.
+### 🎯 Key System Highlights:
+1. **📊 Consolidated Dynamic Reports (REG-041)**: Queries across all 40 tables with strict 1–3 day limits, live search, and auto-fetching.
+2. **📄 High-Definition PDF Engine**: Custom multi-page landscape PDF generator featuring Indian Railways navy banners, table borders, and automatic page numbering (`Page X of Y`).
+3. **🖱️ Native Touchpad Horizontal Scrolling**: Full support for 2-finger horizontal swipe/drag and `Shift + Wheel` navigation on wide tables with 11+ columns.
+4. **🖥️ Taskbar-Friendly UI**: Bounds calibrated directly to `Screen.WorkingArea` so the Windows taskbar is never hidden.
+5. **🔒 Permanent Audit Trails**: Every submission is permanently logged with logged-in Staff ID, timestamp, and unique system IDs.
 
 <br/>
 
@@ -115,7 +128,7 @@ graph LR
 <br/>
 
 ### 🔵 Department 1: Station Operations & Traffic (17 Registers)
-> Daily train traffic, passenger grievances, shift handovers, and station logs.
+> *Daily train traffic, passenger grievances, shift handovers, and station logs.*
 
 | Code | Register Name | Description & Key Parameters |
 | :---: | :--- | :--- |
@@ -140,7 +153,7 @@ graph LR
 ---
 
 ### 🟢 Department 2: Signal & Telecom (S&T) Maintenance (10 Registers)
-> Signaling gear, point machines, interlocking tests, and fault rectification.
+> *Signaling gear, point machines, interlocking tests, and fault rectification.*
 
 | Code | Register Name | Description & Key Parameters |
 | :---: | :--- | :--- |
@@ -158,7 +171,7 @@ graph LR
 ---
 
 ### 🟠 Department 3: Infrastructure & Electrical Power (4 Registers)
-> Sidings, power overhead lines (OHE), platform maintenance, and diesel generators.
+> *Sidings, power overhead lines (OHE), platform maintenance, and diesel generators.*
 
 | Code | Register Name | Description & Key Parameters |
 | :---: | :--- | :--- |
@@ -170,7 +183,7 @@ graph LR
 ---
 
 ### 🔴 Department 4: Safety & Audit Engine (10 Registers)
-> Regulatory compliance, surprise inspections, and dynamic cross-register reporting.
+> *Regulatory compliance, surprise inspections, and dynamic cross-register reporting.*
 
 | Code | Register Name | Description & Key Parameters |
 | :---: | :--- | :--- |
@@ -218,30 +231,6 @@ The **REG-041 Dynamic Reports** window serves as the central command audit tool:
 
 ---
 
-## 🛡️ Smart Validation Engine (264 Test Cases)
-
-Implemented in `RegisterValidationEngine.cs`, every submission is evaluated before reaching SQL Server:
-
-```csharp
-// Example Validation Dialog displayed on invalid entry:
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ❌ Validation Error in 'Train Number':                                      │
-│                                                                             │
-│ 💡 Reason: Invalid train number format. Input contains special characters   │
-│           ('12@27'). Train numbers must be 1-6 numeric digits with an       │
-│           optional single letter suffix.                                    │
-│                                                                             │
-│ ✅ Expected Valid Input: '12727' or '12727A'                                │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-> [!NOTE]
-> **Tested & Verified**: All 264 positive and negative test cases from `Test_Cases.xlsx` are active, ensuring 100% data cleanliness.
-
-<br/>
-
----
-
 ## ⚡ Quick Start Guide
 
 ### Step 1: Open in Visual Studio
@@ -271,9 +260,8 @@ Press <kbd>F5</kbd> (or click **▶ Start**). The login screen and user dashboar
  ┣ 📂 TMSfinal1
  ┃ ┣ 📄 Form_Reg001_StationDiary.cs ... Form_Reg040_FailureInspection.cs (All 40 Registers)
  ┃ ┣ 📄 Form_Reg041_DynamicReports.cs   (Consolidated Reports & Multi-Page PDF Engine)
- ┃ ┣ 📄 RegisterValidationEngine.cs     (264 Test Cases Validation Core)
- ┃ ┣ 📄 ValidationHelper.cs             (UI Error Dialogs & Form Helpers)
  ┃ ┣ 📄 DatabaseHelper.cs               (SQL Server connection and queries)
+ ┃ ┣ 📄 SessionManager.cs               (User session tracking and role security)
  ┃ ┣ 📄 ThemeManager.cs                 (Railway Navy theme & visual styling)
  ┃ ┣ 📄 App.config                      (Database configuration)
  ┃ ┗ 📄 Program.cs                      (Application entry point)
